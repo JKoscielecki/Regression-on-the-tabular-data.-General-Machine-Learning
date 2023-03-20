@@ -1,1 +1,1 @@
-# .-Regression-on-the-tabular-data.-General-Machine-Learning
+# Regression-on-the-tabular-data.-General-Machine-Learning
