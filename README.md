@@ -16,8 +16,18 @@ This repository contains:
 
 ● requirements.txt files
 
-Description
-The EDA includes exploratory analysis, checking for missing values, data distributions, linearity, variable types, etc. Plots such as scatterplots, line plots, and box plots are also created. The correlation is checked and a correlation matrix is drawn. The data is first normalized using methods such as MinMaxScaler and then STDscaler, and the results are compared. Then, linear regression is performed for each factor and the results are analyzed, but the results are weak. Attempts were made to train the model on several best factors using feature selection methods such as correlation-based or RFE or PCA, but the results were still weak. Other models such as random forest regressor and neural networks with different layers and neurons were also tried, but the results were still poor. Finally, the method of PolynomialFeatures(degree=2, include_bias=False) with normal regression was used, and it brought excellent results. The trained model was then evaluated, and the following are the metrics for the test dataset: RMSE: 9.204990941349006e-12, Mean squared error: 8.473185823031727e-23, R-squared: 1.0.
+# Description:
+The EDA includes exploratory analysis, checking for missing values, data distributions, linearity, variable types, etc. 
+Plots such as scatterplots, line plots, and box plots are also created. The correlation is checked and a correlation matrix is drawn. 
+The data is first normalized using methods such as MinMaxScaler and then STDscaler, and the results are compared. 
+Then, linear regression is performed for each factor and the results are analyzed, but the results are weak. 
+Attempts were made to train the model on several best factors using feature selection methods such as correlation-based or RFE or PCA, but the results were still weak. Other models such as random forest regressor and neural networks with different layers and neurons were also tried, but the results were still poor. 
+
+# Finally, the method of PolynomialFeatures(degree=2, include_bias=False) with normal regression was used, and it brought excellent results. 
+# The trained model was then evaluated, and the following are the metrics for the test dataset: 
+# RMSE: 9.204990941349006e-12
+# Mean squared error: 8.473185823031727e-23
+# R-squared: 1.0
 
 
 ● Installation
